@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+
+<body> 
+  <div class="bg-cover bg-center min-h-screen  ">   
+    
+    <!-- Header Start -->
+    <header class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10 bg-navy opacity-90 shadow-sm">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#" class="font-bold text-lg text-white block py-6">Daffaaptar</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button"
+            class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-5 bg-navy rounded-lg max-w-[250px] w-full right-4 top-full shadow-lg lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="" class="text-base text-white py-2 mx-8 flex">Home</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-white py-2 mx-8 flex">About</a>
+                </li>
+                <li class="group">
+                  <a href="../views/product.html" class="text-base text-white py-2 mx-8 flex">Product</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-white py-2 mx-8 flex bg-oren rounded-full w-[150px] text-center justify-center items-center" type="button">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    
+  <!-- Hero Section Start -->
+  <section id="home" class="pt-28">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-5 lg:w-1/2">
+          <h1 class="text-base font-semibold  text-gray py-5">WEBSITE DEVELOPER</h1>
+         <h1 class="text-4xl font-bold"> Let’s <span class="text-oren">disscuss</span> your
+          <span class="text-oren">website application</span> with me!
+          </h1>
+          <p class="text-base font-normal text-gray py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+        </div>
+        <div class="max-w-full self-end px-5 lg:w-1/2">
+        <div class="relative mt-10 lg:mt-9 lg:right-0">
+          <img src="../src/img/hero.png" alt="" class="w-mx-auto lg:scale-90 lg:ml-20">
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Introduction -->
+  <section id="Information" class="pt-20 shadow-sm ">
+    <div class="container">
+      <div class="flex flex-wrap justify-center ">
+        <div class="w-full px-4 mb-10 justify-center text-center">
+          <h1 class="text-2xl font-bold ">Service We Can Help You</h1>
+          <p class="text-base font-normal text-gray">Management information systems are basically used to manage a variety of data for work processes and Administration becomes easier and more organized.</p>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:mt-10 place-items-center">
+          <!-- Card 1 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-card bg-opacity-40 hover:bg-white">
+            <div class="flex-center pt-5 pb-4">
+              <a class="duration-300 text-center font-normal hover:shadow-lg  text-dark border-2 py-1 px-2  w-[150px] rounded-full " href="#"><i class="fa fa-brush fa-2xl" ></i></a>
+            </div>
+            <div class="px-6 ">
+              <div class="font-bold text-xl mb-2">Web Design</div>
+              <p class="text-gray font-normal text-sm  py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10  rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-card bg-opacity-40 hover:bg-white">
+            <div class="flex-center pt-5 pb-4">
+              <a class="duration-300 text-center font-normal hover:shadow-lg  text-dark border-2 py-1 px-2  w-[150px] rounded-full " href="#"><i class="fa fa-database fa-2xl" ></i></a>
+            </div>
+            <div class="px-6 ">
+              <div class="font-bold text-xl mb-2">Database</div>
+              <p class="text-gray font-normal text-sm py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+            </div>
+          </div>
+          <!-- Card 3  -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-card bg-opacity-40 hover:bg-white">
+            <div class="flex-center pt-5 pb-4">
+              <a class="duration-300 text-center font-normal hover:shadow-lg  text-dark border-2 py-1 px-2  w-[150px] rounded-full " href="#"><i class="fa fa-toolbox fa-2xl" ></i></a>
+            </div>
+            <div class="px-6 ">
+              <div class="font-bold text-xl mb-2">Prototype</div>
+              <p class="text-gray font-normal text-sm  py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-card bg-opacity-40 hover:bg-white">
+            <div class="flex-center pt-5 pb-4">
+              <a class="duration-300 text-center font-normal hover:shadow-lg  text-dark border-2 py-1 px-2  w-[150px] rounded-full " href="#"><i class="fa fa-pen fa-2xl" ></i></a>
+            </div>
+            <div class="px-6 ">
+              <div class="font-bold text-xl mb-2">Content Writing</div>
+              <p class="text-gray font-normal text-sm  py-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+            </div>
+          </div>
+          </div>
+          <!-- end card -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!-- End -->
+
+  <!-- Information Section Start -->
+  <section id="Information" class="pt-20 shadow-sm ">
+    <div class="container">
+      <div class="flex flex-wrap justify-center ">
+        <div class="w-full px-4 mb-10 justify-center text-center">
+          <p class="font-bold text-base text-oren text-center">Information System</p>
+          <h1 class="text-2xl font-bold ">Management Information System</h1>
+          <p class="text-base font-normal text-gray">Management information systems are basically used to manage a variety of data for work processes and Administration becomes easier and more organized.</p>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:mt-10 place-items-center">
+          <!-- Card 1 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-white bg-opacity-40 hover:bg-white">
+            <img class="w-full" src="../src/img/hero.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Desktop Application</div>
+              <p class="text-gray font-normal text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+              <div class="flex-center pt-5 pb-4">
+                <a class="duration-300 text-center font-normal hover:shadow-lg  hover:bg-red-700 text-red border-2 py-1 px-2 w-[150px] rounded-full " href="#">Show More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-white bg-opacity-40 hover:bg-white">
+            <img class="w-full" src="../src/img/hero.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Desktop Application</div>
+              <p class="text-gray font-normal text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+              <div class="flex-center pt-5 pb-4">
+                <a class="duration-300 text-center font-normal hover:shadow-lg  hover:bg-red-700 text-red border-2 py-1 px-2 w-[150px] rounded-full" href="#">Show More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3  -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-white bg-opacity-40 hover:bg-white">
+            <img class="w-full" src="../src/img/hero.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Desktop Application</div>
+              <p class="text-gray font-normal text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+              <div class="flex-center pt-5 pb-4">
+                <a class="duration-300 text-center font-normal hover:shadow-lg  hover:bg-red-700 text-red border-2 py-1 px-2 w-[150px] rounded-full" href="#">Show More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="max-w-[300px] max-h-fit mx-5 mt-10 rounded overflow-hidden shadow-lg md:hover:scale-125 transition duration-500 cursor-pointer hover:z-5 aos-init aos-animate bg-white bg-opacity-40 hover:bg-white">
+            <img class="w-full" src="../src/img/hero.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Desktop Application</div>
+              <p class="text-gray font-normal text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi voluptatum dolorem hic doloremque dolores.
+              </p>
+              <div class="flex-center pt-5 pb-4">
+                <a class="duration-300 text-center font-normal hover:shadow-lg  hover:bg-red-700 text-red border-2 py-1 px-2 w-[150px] rounded-full" href="#">Show More</a>
+              </div>
+            </div>
+          </div>
+          <!-- end card -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!--Footer container-->
+  <div class="w-full bg-black/5 p-4 text-center shadow-lg">
+  <div class="mt-6 lg:mb-0 mb-6">
+    <button class="bg-navy text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-3">
+      <i class="fab fa-instagram"></i>
+    </button>
+    <button class="bg-navy text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-3">
+      <i class="fab fa-github"></i>
+    </button>
+    <button class="bg-navy text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-3">
+      <i class="fab fa-linkedin"></i>
+    </button>
+  </div>
+    © 2024 Copyright:
+    <a href="#">daffaaptar</a>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>
